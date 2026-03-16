@@ -1,6 +1,5 @@
 class circle:
-    def __init__(self, radius, area, perimeter):
-        self.radius = radius
+    def __init__(self, area, perimeter):
         self.area = area
         self.perimeter = perimeter
 radius = int(input("Please enter a number greater than 5, but less than 10: "))
